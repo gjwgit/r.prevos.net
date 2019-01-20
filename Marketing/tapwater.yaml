@@ -22,7 +22,7 @@ dependencies:
   files:
     - Marketing/tapwater.md: README.md
     - Marketing/tapwater.license: LICENSE
-    - Marketing/tapwater.py: demo.R
+    - Marketing/tapwater.R: demo.R
     - Marketing/customers_quan.csv
 commands:
   demo    : Perform a factor analysis on customer data.
