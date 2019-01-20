@@ -1,0 +1,28 @@
+--- # tap water
+meta:
+  name         : tapwater
+  title        : Factor analysis for understanding customers
+  keywords     : r, factor analysis, psych, consumer involvement
+  version      : 0.0.1
+  languages    : R
+  display      : demo
+  license      : gpl3
+  author       : Peter Prevos
+  source       : https://lucidmanager.org/measuring-consumer-involvement/
+  packager     : Graham.Williams@togaware.com
+  url          : gjwgit/r.prevos.net:Marketing/tapwater.yaml
+dependencies:
+  system:
+    - eom
+  cran:
+    - tidyverse
+    - psych
+    - magrittr
+    - gparotation
+  files:
+    - Marketing/tapwater.md: README.md
+    - Marketing/tapwater.license: LICENSE
+    - Marketing/tapwater.py: demo.R
+    - Marketing/customers_quan.csv
+commands:
+  demo    : Perform a factor analysis on customer data.
