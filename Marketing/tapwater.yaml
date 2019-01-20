@@ -3,7 +3,7 @@ meta:
   name         : tapwater
   title        : Factor analysis for understanding customers
   keywords     : r, factor analysis, psych, consumer involvement
-  version      : 0.0.1
+  version      : 0.0.2
   languages    : R
   display      : demo
   license      : gpl3
