@@ -10,7 +10,8 @@ meta:
   author       : Peter Prevos
   source       : https://lucidmanager.org/measuring-consumer-involvement/
   packager     : Graham.Williams@togaware.com
-  url          : gjwgit/r.prevos.net:Marketing/tapwater.yaml
+  url          : https://github.com/Marketing/tapwater.md
+  yaml         : gjwgit/r.prevos.net:Marketing/tapwater.yaml
 dependencies:
   system:
     - eom
